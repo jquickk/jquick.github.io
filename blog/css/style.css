@@ -47,5 +47,151 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+@font-face {
+    font-family:"ultra";
+    src: url("../fonts/serif/ultra-regular.ttf");format("truetype")
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/sans-serif/roboto-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:lZ "lato" ;
+    src: url("../fonts/sans-serif/lato-regular.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+/* TYPOGRAPHY */
 
+  p {
+      font-family:roboto,Arial,sans-serif ;
+  }
+
+  h1, h2, h3, h4 {
+      font-family: lato,Arial, Helvetica, sans-serif;
+      letter-spacing: 0.0125rem;
+  }
+
+  h1{
+      font-size: 3rem;
+      letter-spacing: 0.25rem ;
+      transform: rotate(-10deg);
+  }
+
+  .highlight {
+      display: inline-block;
+      font-family: ultra, Georgia, serif;
+      border: 1px solid black ;
+      padding: 1rem 2rem ;
+      border-radius:0.3rem ;
+      border-top-left-radius:1rem ;
+      color:#fffefd ;
+      background: color #28234b; ;
+  }
+
+  /* GENERAL SET UP AND DEFAULTS */
+
+  * {
+      box-sizing: border-box;
+  }
+  
+  html{
+      font-size: 16px;
+  }
+
+  body {
+      margin: 1.5rem auto;
+      width: 90%;
+      min-width: 56.25rem;
+  }
+
+  /* LAYOUT */
+
+  header {
+      padding: 0.5rem 0rem 1rem 0rem;
+  }
+
+  nav {
+      margin-top: 3rem;
+  }
+
+  .main-section {
+      display: grid;
+      grid-template-columns: 4fr 1fr;
+      grid-gap: 1rem;
+  }
+
+  aside {
+      grid-column: 2/3;
+      grid-row: 1;
+      border-left: 1x solid #28234b;
+      padding-left: 0.75rem;
+  }
+
+  aside p {
+      border-bottom: 1px solid #161519;
+      padding-bottom: 0.5rem;
+  }
+
+  article {
+      grid-column: 1/2;
+      grid-row: 1;
+  }
+
+  .subsection {
+      display: flex;
+  }
+
+  /*images snd figures */
+
+  img {
+      width: 100%;
+  }
+
+  figure {
+      margin: 0px;
+  }
+
+  .article-image {
+      width: 33%;
+      float: left;
+      margin-right: .75rem;
+  }
+
+  .subsection {
+      margin: 1rem 0rem;
+  }
+
+  .subsection figure {
+      margin: 0rem .25rem;
+      background-color: #f2e4c9;
+  }
+
+  .subsection figure {
+      padding: 0.5rem 0.5rem;
+  }
+
+  /* LINKS AND NAVIGATION */
+  
+  a {
+      text-decoration: none;
+  }
+
+  nav a {
+      display: inline-block;
+      padding: 2rem 2rem;
+      font-size: 1.5rem;
+      font-family: lato, arial,sans-serif;
+      color: #2707f4;
+
+  }
+
+  nav {
+      border-top: 1px solid #28234b;
+      border-bottom: 1px solid #28234b;
+  }

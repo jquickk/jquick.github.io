@@ -1,4 +1,4 @@
-/* General setup - I salute you */
+
 
 * {
     box-sizing: border-box;
@@ -116,7 +116,7 @@ h2 {font-family: josefinslab; garamond, serif;
   
 }
 
-h2 + p { text-indent: 1.5 rem;
+h2 + p { text-indent: 1.5rem;
 
 }
 
@@ -184,7 +184,7 @@ nav a {
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-  border: #33658A;
+  border: 1px solid #33658A;
 
 }
 
@@ -208,4 +208,3 @@ footer {
 
 
 
-3
